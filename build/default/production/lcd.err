@@ -1,0 +1,4 @@
+Message[302] C:\USERS\DAVE\DOCUMENTS\PIC\VOLTMETER_16F676\LCD.ASM 231 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DAVE\DOCUMENTS\PIC\VOLTMETER_16F676\LCD.ASM 232 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DAVE\DOCUMENTS\PIC\VOLTMETER_16F676\LCD.ASM 233 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DAVE\DOCUMENTS\PIC\VOLTMETER_16F676\LCD.ASM 239 : Register in operand not in bank 0.  Ensure that bank bits are correct.

@@ -1,0 +1,126 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat May 28 20:13:02 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000002
+                     PROG       code   0x000001    program   0x000116
+                   .cinit    romdata   0x00008c    program   0x000004
+                MAIN_PROG       code   0x00008e    program   0x0001a2
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+                   .org_0       code   0x002100    program   0x000012
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00015e      
+                            0x002007    0x002007      
+                            0x002100    0x002108      
+            361 out of 1158 program addresses used, program memory utilization is 31%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   B2_BCD   0x00013c    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+               BCD_TO_LCD   0x0000cb    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                  Delay_0   0x000072    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                   LCDADD   0x000025    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                   LCDCLR   0x00004a    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                  LCDINIT   0x000001    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                  LCDSEND   0x00002b    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                LCD_LINE0   0x00005f    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                LCD_LINE1   0x000064    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+        LCD_PRINT_VOLTAGE   0x00007e    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+              LCD_PV_EXIT   0x00008a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+              LCD_PV_LOOP   0x000080    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+         LCD_WAIT_ON_BUSY   0x000051    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                     LOOP   0x0000a6    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                     MAIN   0x00008e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+             SHOW_VOLTAGE   0x0000b6    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                    VOLTS   0x002100    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+           _LCD_WAIT_BUSY   0x00005e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+           _LCD_WAIT_LOOP   0x000056    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+      _LCD_WAIT_LOOP_DONE   0x000058    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+               _PROG_0072   0x000073    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+               _PROG_0075   0x000076    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+               _PROG_007B   0x00007c    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                    add16   0x000135    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0030   0x000130    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0061   0x00012b    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_00c3   0x000126    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0186   0x000120    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_030d   0x00011a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_061a   0x000114    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0c35   0x00010e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_186a   0x000108    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_30d4   0x000102    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_61a8   0x0000fc    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                   adjBCD   0x000154    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                   adjDEC   0x00014a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                    delay   0x000069    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                delay_1ms   0x00006e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                 dly_loop   0x00006a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+              get_adc_val   0x0000e3    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 get_next   0x0000ae    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                   loop16   0x000142    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                  not_yet   0x0000ad    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                short_dly   0x000078    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+              short_dly_0   0x00007a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  LCDINIT   0x000001    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                   LCDADD   0x000025    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                  LCDSEND   0x00002b    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                   LCDCLR   0x00004a    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+         LCD_WAIT_ON_BUSY   0x000051    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+           _LCD_WAIT_LOOP   0x000056    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+      _LCD_WAIT_LOOP_DONE   0x000058    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+           _LCD_WAIT_BUSY   0x00005e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                LCD_LINE0   0x00005f    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                LCD_LINE1   0x000064    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                    delay   0x000069    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                 dly_loop   0x00006a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                delay_1ms   0x00006e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                  Delay_0   0x000072    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+               _PROG_0072   0x000073    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+               _PROG_0075   0x000076    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                short_dly   0x000078    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+              short_dly_0   0x00007a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+               _PROG_007B   0x00007c    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+        LCD_PRINT_VOLTAGE   0x00007e    program     extern C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+              LCD_PV_LOOP   0x000080    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+              LCD_PV_EXIT   0x00008a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+                     MAIN   0x00008e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                     LOOP   0x0000a6    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                  not_yet   0x0000ad    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 get_next   0x0000ae    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+             SHOW_VOLTAGE   0x0000b6    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+               BCD_TO_LCD   0x0000cb    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+              get_adc_val   0x0000e3    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_61a8   0x0000fc    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_30d4   0x000102    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_186a   0x000108    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0c35   0x00010e    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_061a   0x000114    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_030d   0x00011a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0186   0x000120    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_00c3   0x000126    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0061   0x00012b    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                 add_0030   0x000130    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                    add16   0x000135    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                   B2_BCD   0x00013c    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                   loop16   0x000142    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                   adjDEC   0x00014a    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                   adjBCD   0x000154    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\main.asm
+                    VOLTS   0x002100    program     static C:\Users\Dave\Documents\PIC\voltmeter_16f676\lcd.asm
+
+
